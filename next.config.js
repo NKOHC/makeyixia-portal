@@ -13,6 +13,9 @@ const nextConfig = {
         ]
       }
     ]
+  },
+  serverOptions: {
+    port: process.env.PORT || 3000
   }
 }
 
