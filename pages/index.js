@@ -24,9 +24,9 @@ export default function HomePage() {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <main className="flex-grow pt-20 md:pt-24">
+      <main className="flex-grow pt-16">
         {/* Hero Section */}
-        <section className="bg-[#4B4BF7] text-white py-16 md:py-20">
+        <section className="bg-[#4B4BF7] text-white pt-24 pb-16 md:pt-32 md:pb-24">
           <Container>
             <div className="max-w-4xl mx-auto text-center px-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">

@@ -9,7 +9,7 @@ export default function FocusSection() {
   return (
     <section className="mb-12">
       <h2 className="text-2xl font-bold mb-4 flex items-center">
-        <span className="mr-2">🎯</span> 我的专注
+        <span className="mr-2">🎯我专注于</span> 我的专注
       </h2>
       <ul className="space-y-3">
         {focuses.map((item, index) => (

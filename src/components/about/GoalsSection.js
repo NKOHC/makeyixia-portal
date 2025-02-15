@@ -9,7 +9,7 @@ export default function GoalsSection() {
   return (
     <section className="mb-12">
       <h2 className="text-2xl font-bold mb-4 flex items-center">
-        <span className="mr-2">✨</span> 博客目标
+        <span className="mr-2">✨项目目标</span> 项目目标
       </h2>
       <ul className="space-y-3">
         {goals.map((item, index) => (
