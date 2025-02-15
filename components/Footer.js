@@ -12,8 +12,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">快速链接</h3>
             <ul className="space-y-2">
-              <li><a href="/products" className="text-gray-400 hover:text-white transition-colors">产品中心</a></li>
-              <li><a href="/blog" className="text-gray-400 hover:text-white transition-colors">博客文章</a></li>
+              <li><a href="/" className="text-gray-400 hover:text-white transition-colors">首页</a></li>
               <li><a href="/about" className="text-gray-400 hover:text-white transition-colors">关于我</a></li>
             </ul>
           </div>

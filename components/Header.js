@@ -3,8 +3,6 @@ import React from 'react';
 export default function Header() {
   const navigation = [
     { name: '首页', href: '/' },
-    { name: '产品', href: '/products' },
-    { name: '博客', href: '/blog' },
     { name: '关于', href: '/about' },
   ];
 
