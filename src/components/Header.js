@@ -14,7 +14,7 @@ export default function Header() {
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
             <a href="/" className="text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors">
-              马文的创造日记
+              马克一下
             </a>
             <nav className="hidden md:ml-8 md:flex space-x-8">
               {navigation.map((item) => (

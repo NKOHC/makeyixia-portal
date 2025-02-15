@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
           <p>© 2024 马文的创造日记. All rights reserved.</p>
-          <p className="mt-2">备案号：您的备案号</p>
+          <p className="mt-2">备案号：浙ICP备2025150431号</p>
         </div>
       </div>
     </footer>
