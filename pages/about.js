@@ -12,8 +12,8 @@ export default function AboutPage() {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <main className="flex-grow pt-16">
-        <div className="bg-[#4B4BF7] text-white py-20">
+      <main className="flex-grow pt-20">
+        <div className="bg-[#4B4BF7] text-white py-24">
           <Container>
             <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-xl p-8 md:p-12">
               <IntroSection />

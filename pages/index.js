@@ -24,12 +24,12 @@ export default function HomePage() {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <main className="flex-grow pt-16">
+      <main className="flex-grow pt-20">
         {/* Hero Section */}
-        <section className="bg-[#4B4BF7] text-white pt-24 pb-16 md:pt-32 md:pb-24">
+        <section className="bg-[#4B4BF7] text-white py-32">
           <Container>
             <div className="max-w-4xl mx-auto text-center px-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
                 Be A Maker
               </h1>
               <p className="text-xl md:text-2xl opacity-90">
@@ -40,10 +40,10 @@ export default function HomePage() {
         </section>
 
         {/* Tools Section */}
-        <section className="py-16 md:py-20 bg-gray-50">
+        <section className="py-24">
           <Container>
             <div className="max-w-5xl mx-auto px-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 {tools.map((tool, index) => (
                   <ToolCard key={index} {...tool} />
                 ))}
