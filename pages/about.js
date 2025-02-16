@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Header from '../src/components/Header';
 import Footer from '../src/components/Footer';
 import Container from '../src/components/Container';
@@ -73,19 +74,25 @@ export default function About() {
                 </h2>
                 <div className="flex flex-col md:flex-row justify-start space-y-6 md:space-y-0 md:space-x-12">
                   <div>
-                    <img 
-                      src="/images/wechat-qr.JPG" 
-                      alt="微信二维码" 
-                      className="w-32 h-32 rounded-lg"
-                    />
+                    <div className="relative w-32 h-32">
+                      <Image 
+                        src="/images/wechat-qr.jpg"
+                        alt="微信二维码"
+                        fill
+                        className="rounded-lg object-cover"
+                      />
+                    </div>
                     <p className="mt-2 text-gray-600">微信</p>
                   </div>
                   <div>
-                    <img 
-                      src="/images/jike.PNG" 
-                      alt="即刻二维码" 
-                      className="w-32 h-32 rounded-lg"
-                    />
+                    <div className="relative w-32 h-32">
+                      <Image 
+                        src="/images/jike-qr.png"
+                        alt="即刻二维码"
+                        fill
+                        className="rounded-lg object-cover"
+                      />
+                    </div>
                     <p className="mt-2 text-gray-600">即刻</p>
                   </div>
                 </div>

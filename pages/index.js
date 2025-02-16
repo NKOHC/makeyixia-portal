@@ -3,6 +3,7 @@ import Header from '../src/components/Header';
 import Footer from '../src/components/Footer';
 import Container from '../src/components/Container';
 import ToolCard from '../src/components/ToolCard';
+import Layout from '../src/components/Layout';
 
 const tools = [
   {
@@ -19,14 +20,14 @@ const tools = [
   }
 ];
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <Layout>
       <Header />
       
-      <main className="flex-grow pt-20">
+      <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-[#4B4BF7] text-white py-32">
+        <section className="bg-[#4B4BF7] text-white py-20">
           <Container>
             <div className="max-w-4xl mx-auto text-center px-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
@@ -40,7 +41,7 @@ export default function HomePage() {
         </section>
 
         {/* Tools Section */}
-        <section className="py-24">
+        <section className="py-16">
           <Container>
             <div className="max-w-5xl mx-auto px-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -54,6 +55,6 @@ export default function HomePage() {
       </main>
 
       <Footer />
-    </div>
+    </Layout>
   );
 } 

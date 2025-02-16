@@ -13,7 +13,10 @@ const nextConfig = {
         ]
       }
     ]
-  }
+  },
+  images: {
+    unoptimized: true, // 如果部署到静态环境如 GitHub Pages
+  },
 }
 
 module.exports = nextConfig
